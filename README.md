@@ -49,6 +49,14 @@ sslocal -c /etc/shadowsocks/config.json
 
 ## proxychains
 
+Mac:
+
+```bash
+brew install proxychains-ng
+```
+
+Ubuntu:
+
 最早安装的时候，apt 装的版本有问题。
 编译安装 proxychains-ng，很不错。
 注意，编译安装的，是 proxychains4, 最后多了个 “4”
